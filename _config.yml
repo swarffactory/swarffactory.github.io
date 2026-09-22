@@ -1,0 +1,60 @@
+title: The Swarf Factory
+email: mail@emilcarr.scot
+description: >- # ignore newlines
+  Shared studio space for interdisciplinary artists in Glasgow, Scotland.
+baseurl: ""
+url: "https://theswarffactory.studio"
+github_username:  swarffactory
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+remote_theme: "jekyll/minima@4de3223" #v3 as of 2026-09-22
+
+# Theme Specifics
+minima:
+  show_excerpts: true
+  social_links:
+    - title: The Swarf Factory on Instagram
+      icon: instagram
+      url: "https://www.instagram.com/theswarffactory.studio"
+    - title: The Swarf Factory on LinkedIn
+      icon: linkedin
+      url: "https://www.linkedin.com/company/146630295/"
+
+show_downloads: false
+list_posts: true
+paginate: false
+date_format: '%d-%m-%Y'
+
+#
+github:
+  is_project_page: false
+  is_user_page: true
+
+# SEO and social info
+logo: media/logo.png
+instagram:  "https://www.instagram.com/theswarffactory.studio"
+social:
+  links:
+    - "https://www.instagram.com/theswarffactory,studio/"
+    - "https://www.linkedin.com/company/146630295/"
+  
+# 
+locale: en_GB
+
+#
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
