@@ -34,6 +34,10 @@ date_format: '%d-%m-%Y'
 github:
   is_project_page: false
   is_user_page: true
+  
+# included by default in GitHub Pages Build environment 
+titles_from_headings:
+  strip_title: true
 
 # SEO and social info
 logo: media/logo.png
